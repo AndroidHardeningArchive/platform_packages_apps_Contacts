@@ -16,7 +16,7 @@
 
 package com.android.contacts.preference;
 
-import static android.Manifest.permission.SET_DEFAULT_ACCOUNT_FOR_CONTACTS;
+import static com.android.contacts.SystemApis.SET_DEFAULT_ACCOUNT_FOR_CONTACTS;
 
 import android.accounts.Account;
 import android.annotation.SuppressLint;
