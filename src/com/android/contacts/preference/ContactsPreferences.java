@@ -279,8 +279,16 @@ public class ContactsPreferences implements OnSharedPreferenceChangeListener {
                         .permitDiskReads()
                         .build());
         try {
-            ContactsContract.Settings.setDefaultAccount(mContext.getContentResolver(),
-                    accountWithDataSet == null ? null : accountWithDataSet.getAccountOrNull());
+            var extras = new android.os.Bundle();
+            Account account = accountWithDataSet == null ? null : accountWithDataSet.getAccountOrNull();
+            if (account != null) {
+                extras.putString(ContactsContract.Settings.ACCOUNT_NAME, account.name);
+                extras.putString(ContactsContract.Settings.ACCOUNT_TYPE, account.type);
+            }
+
+            // TODO: mark ContactsContract.Settings.setDefaultAccount with @UnsupportedAppUsage and
+            //  call it via reflection instead
+            mContext.getContentResolver().call(ContactsContract.AUTHORITY_URI, "setDefaultAccount", null, extras);
         } finally {
             StrictMode.setThreadPolicy(oldPolicy);
         }
