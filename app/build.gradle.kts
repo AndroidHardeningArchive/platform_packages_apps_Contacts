@@ -32,6 +32,7 @@ android {
     }
 
     sourceSets.getByName("main") {
+        assets.srcDir("../assets")
         manifest.srcFile("../AndroidManifest.xml")
         java.srcDirs("../src", "../src-bind")
         res.srcDir("../res")
