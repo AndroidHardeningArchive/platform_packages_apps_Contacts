@@ -37,6 +37,7 @@ import android.provider.ContactsContract;
 import android.provider.ContactsContract.Intents;
 import android.provider.ContactsContract.ProviderStatus;
 import androidx.annotation.LayoutRes;
+import androidx.appcompat.graphics.drawable.DrawerArrowDrawable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.core.content.ContextCompat;
@@ -387,6 +388,10 @@ public class PeopleActivity extends AppCompatContactsActivity implements
                 onBackPressed();
             }
         });
+
+        DrawerArrowDrawable drawerArrowDrawable = new DrawerArrowDrawable(this);
+        drawerArrowDrawable.setColor(ContextCompat.getColor(this, R.color.actionbar_icon_color));
+        mToggle.setDrawerArrowDrawable(drawerArrowDrawable);
 
         // Set up navigation mode.
         if (savedState != null) {

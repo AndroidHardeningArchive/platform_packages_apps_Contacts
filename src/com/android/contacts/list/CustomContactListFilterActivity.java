@@ -601,7 +601,7 @@ public class CustomContactListFilterActivity extends AppCompatActivity implement
             text2.setText(account.mAccountInfo.getTypeLabel());
 
             final int textColor = mContext.getResources().getColor(isExpanded
-                    ? R.color.dialtacts_theme_color
+                    ? R.color.primary_color
                     : R.color.account_filter_text_color);
             text1.setTextColor(textColor);
             text2.setTextColor(textColor);
