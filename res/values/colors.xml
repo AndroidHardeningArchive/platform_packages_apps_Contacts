@@ -67,7 +67,7 @@
     <color name="editor_icon_color">#7f7f7f</color>
 
     <!-- Color of disabled text and unfocused hint text inside the contact editor. 25% black. -->
-    <color name="editor_disabled_text_color">#40000000</color>
+    <color name="editor_disabled_text_color">#A0000000</color>
 
     <!-- Color of text on disabled link contacts button, 25% black. -->
     <color name="disabled_button_text">#40000000</color>
@@ -87,22 +87,16 @@
     <color name="swipe_refresh_color3">#4285f4</color>
     <color name="swipe_refresh_color4">#f4b400</color>
 
-    <!-- Color of ripples used for views with dark backgrounds -->
-    <color name="ripple_material_dark">#a0ffffff</color>
-
     <!-- Divider color for header separator -->
     <color name="primary_text_color">#363636</color>
 
     <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
 
     <!-- Text color for section header. -->
-    <color name="section_header_text_color">@color/dialtacts_theme_color</color>
+    <color name="section_header_text_color">@color/primary_color</color>
 
     <!-- Color of the theme of the People app -->
     <color name="people_app_theme_color">#363636</color>
-
-    <!-- Color of the theme of the Dialer app -->
-    <color name="dialtacts_theme_color">#2a56c6</color>
 
     <!-- Color of image view placeholder. -->
     <color name="image_placeholder">#DDDDDD</color>
@@ -196,7 +190,7 @@
 
     <color name="searchbox_hint_text_color">#66000000</color>
 
-    <color name="search_shortcut_icon_color">@color/dialtacts_theme_color</color>
+    <color name="search_shortcut_icon_color">@color/primary_color</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
     <color name="background_primary">#f9f9f9</color>
@@ -246,9 +240,6 @@
 
     <!-- Background color for the current selected item in the navigation drawer -->
     <color name="drawer_selected_color">#E8E8E8</color>
-
-    <!-- Highlight color used in places such as ripples -->
-    <color name="control_highlight_color">#1A000000</color>
 
     <color name="icon_fill_color">@android:color/white</color>
     <color name="sold_background_color">@android:color/white</color>

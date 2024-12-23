@@ -26,24 +26,17 @@
 
     <color name="nav_item_selected_background">#99FFFFFF</color>
 
-    <color name="action_bar_button_text_color">#000000</color>
-
     <color name="actionbar_background_color">@color/primary_color</color>
 
     <color name="contextual_selection_bar_color">#060606</color>
     <!-- Color of the status bar above the contextual selection bar. -->
     <color name="contextual_selection_bar_status_bar_color">#5B5B5B</color>
 
-    <color name="primary_color_dark">#1c3aa9</color>
-    <color name="primary_color">#2a56c6</color>
+    <color name="primary_color_dark">#265AB6</color>
+    <color name="primary_color">#3872D7</color>
 
     <color name="group_primary_color_dark">#546E7A</color>
     <color name="group_primary_color">#607D8B</color>
-
-    <!-- Color of the selected tab underline -->
-    <color name="contacts_accent_color">#000000</color>
-
-    <color name="floating_action_button_icon_color">@color/contacts_accent_color</color>
 
     <!-- Horizontal separator line should be 12% dark in the light theme. -->
     <color name="divider_line_color_light">#525252</color>
@@ -67,7 +60,7 @@
     <color name="editor_icon_color">#BEBDBD</color>
 
     <!-- Color of disabled text and unfocused hint text inside the contact editor. 25% black. -->
-    <color name="editor_disabled_text_color">#40B0AEAE</color>
+    <color name="editor_disabled_text_color">#E0B0AEAE</color>
 
     <!-- Color of text on disabled link contacts button, 25% black. -->
     <color name="disabled_button_text">#40CBCBCB</color>
@@ -87,22 +80,13 @@
     <color name="swipe_refresh_color3">#4285f4</color>
     <color name="swipe_refresh_color4">#f4b400</color>
 
-    <!-- Color of ripples used for views with dark backgrounds -->
-    <color name="ripple_material_dark">#A0000000</color>
-
     <!-- Divider color for header separator -->
     <color name="primary_text_color">#CBCACA</color>
 
     <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
 
-    <!-- Text color for section header. -->
-    <color name="section_header_text_color">@color/dialtacts_theme_color</color>
-
     <!-- Color of the theme of the People app -->
     <color name="people_app_theme_color">#C9C9C9</color>
-
-    <!-- Color of the theme of the Dialer app -->
-    <color name="dialtacts_theme_color">#2a56c6</color>
 
     <!-- Color of image view placeholder. -->
     <color name="image_placeholder">#393838</color>
@@ -173,15 +157,9 @@
 
     <color name="letter_tile_font_color">#000000</color>
 
-    <!-- Color for icons in the actionbar -->
-    <color name="actionbar_icon_color">#000000</color>
-
     <!-- Color of the title to the Frequently Contacted section -->
     <color name="frequently_contacted_title_color">@color/actionbar_background_color</color>
 
-    <!-- Color of action bar text. Ensure this stays in sync with packages/Telephony
-    phone_settings_actionbar_text_color-->
-    <color name="actionbar_text_color">#000000</color>
     <!-- 54% black for icons -->
     <color name="actionbar_icon_color_grey">#8CFFFFFF</color>
     <!-- 87% black for actionbar text -->
@@ -195,8 +173,6 @@
     <color name="searchbox_background_color">#000000</color>
 
     <color name="searchbox_hint_text_color">#66FFFFFF</color>
-
-    <color name="search_shortcut_icon_color">@color/dialtacts_theme_color</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
     <color name="background_primary">#181717</color>
@@ -227,8 +203,6 @@
     <color name="account_filter_text_color">@color/actionbar_text_color_black</color>
     <color name="custom_filter_divider">#444444</color>
 
-    <color name="material_star_pink">#80F50057</color>
-
     <!-- Primary text color in Contacts app -->
     <color name="contacts_text_color">#EAEAEA</color>
 
@@ -247,10 +221,6 @@
     <!-- Background color for the current selected item in the navigation drawer -->
     <color name="drawer_selected_color">#1F1F1F</color>
 
-    <!-- Highlight color used in places such as ripples -->
-    <color name="control_highlight_color">#1AFFFFFF</color>
-
-    <color name="icon_fill_color">@android:color/black</color>
     <color name="sold_background_color">@android:color/black</color>
     <color name="navigation_bar_color">@color/background_primary</color>
 </resources>

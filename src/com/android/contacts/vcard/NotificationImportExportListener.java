@@ -227,7 +227,7 @@ public class NotificationImportExportListener implements VCardImportExportListen
                 .setProgress(totalCount, currentCount, totalCount == - 1)
                 .setTicker(tickerText)
                 .setContentTitle(description)
-                .setColor(context.getResources().getColor(R.color.dialtacts_theme_color))
+                .setColor(context.getResources().getColor(R.color.primary_color))
                 .setSmallIcon(type == VCardService.TYPE_IMPORT
                         ? android.R.drawable.stat_sys_download
                         : android.R.drawable.stat_sys_upload)
@@ -253,7 +253,7 @@ public class NotificationImportExportListener implements VCardImportExportListen
                 ContactsNotificationChannelsUtil.DEFAULT_CHANNEL)
                 .setAutoCancel(true)
                 .setSmallIcon(android.R.drawable.stat_notify_error)
-                .setColor(context.getResources().getColor(R.color.dialtacts_theme_color))
+                .setColor(context.getResources().getColor(R.color.primary_color))
                 .setContentTitle(description)
                 .setContentText(description)
                 .build();
@@ -272,7 +272,7 @@ public class NotificationImportExportListener implements VCardImportExportListen
         return new NotificationCompat.Builder(context,
             ContactsNotificationChannelsUtil.DEFAULT_CHANNEL)
             .setAutoCancel(true)
-            .setColor(context.getResources().getColor(R.color.dialtacts_theme_color))
+            .setColor(context.getResources().getColor(R.color.primary_color))
             .setSmallIcon(R.drawable.quantum_ic_done_vd_theme_24)
             .setContentTitle(title)
             .setContentText(description)
@@ -292,7 +292,7 @@ public class NotificationImportExportListener implements VCardImportExportListen
         return new NotificationCompat.Builder(context,
                 ContactsNotificationChannelsUtil.DEFAULT_CHANNEL)
                 .setAutoCancel(true)
-                .setColor(context.getResources().getColor(R.color.dialtacts_theme_color))
+                .setColor(context.getResources().getColor(R.color.primary_color))
                 .setSmallIcon(android.R.drawable.stat_notify_error)
                 .setContentTitle(context.getString(R.string.vcard_import_failed))
                 .setContentText(reason)

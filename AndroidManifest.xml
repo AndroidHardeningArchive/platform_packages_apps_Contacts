@@ -296,12 +296,12 @@
         <activity
             android:name=".activities.RequestPermissionsActivity"
             android:exported="false"
-            android:theme="@style/PeopleTheme"/>
+            android:theme="@style/PeopleActivityTheme"/>
 
         <activity
             android:name=".activities.RequestImportVCardPermissionsActivity"
             android:exported="false"
-            android:theme="@style/PeopleTheme"/>
+            android:theme="@style/PeopleActivityTheme"/>
 
         <activity
             android:name=".activities.ShowOrCreateActivity"
