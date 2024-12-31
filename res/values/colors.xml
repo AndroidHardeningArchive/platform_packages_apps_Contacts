@@ -78,9 +78,6 @@
     <!-- Color of text of people names in contact list when item is disabled. 30% black -->
     <color name="disabled_contact_list_name_text">#4D000000</color>
 
-    <!-- Color of background of all empty states. -->
-    <color name="empty_state_background">#efefef</color>
-
     <!-- Colors of swipeRefreshLayout's spinning circle. -->
     <color name="swipe_refresh_color1">#0f9d58</color>
     <color name="swipe_refresh_color2">#dd4b37</color>
