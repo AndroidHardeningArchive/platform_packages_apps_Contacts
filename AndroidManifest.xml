@@ -19,8 +19,8 @@
           android:versionName="1.7.34">
 
     <uses-sdk
-        android:minSdkVersion="34"
-        android:targetSdkVersion="34"/>
+        android:minSdkVersion="35"
+        android:targetSdkVersion="35"/>
 
     <original-package android:name="com.android.contacts"/>
 
